@@ -1,11 +1,16 @@
+@font-face {
+    font-family: "menu";
+    src: url("font/Merriweather-Bold.ttf");
+}
+
 body {
     background-color: #f4f4f4;
-    font-family: Georgia, sans-serif;
+    font-family:menu;
     color: 555;
     line-height: 1.6em;
     margin: 0;
     font-size: 16px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .container {
@@ -27,16 +32,20 @@ body {
 .container .login {
     float: right;
     margin-top: 30px;
+    text-align: center;
+    font-size: 17px
 }
 
 input.sub1[type=submit] {
-    width: 100px;
+    width: 150px;
     height: 30px;
     border-radius: 50px;
     color: #fbee24;
     cursor: pointer;
-    background-color: blue;
+    background-color: #018bd4;
     opacity: .9;
+    font-weight: bolder;
+    font-size: 17px
 }
 
 input.sub2[type=submit] {
@@ -96,33 +105,49 @@ a {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 430px;
     margin-bottom: 0px;
     text-align: center;
     min-height: 200px;
 }
 
 #showcase h1 {
-    color: #fff;
+    color: #1919fe;
     font-size;
     line-height: 1.6em;
     padding-top: 30px;
 }
+.enregistre{
+    background-color: lightblue;
+    opacity: .8;
+    width: 30%;
+}
 
 #main-footer {
     text-align: center;
-    padding: 20px;
+    padding: 28px;
     margin-top: 0px;
-    background-color: blue;
+    background-color: #018bd4;
     color: #fff;
     opacity: .9;
+    height: 150px;
 
+}
+#main-footer ul li{
+    display: inline;
+}
+#main-footer a{
+    padding-right: 20px
 }
 
 footer ul {
     list-style: none;
+    float: left;
 }
 
 footer a {
     color: #fbee24;
+}
+footer p{
+    float: right;
 }
