@@ -1,0 +1,127 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Georgia, sans-serif;
+    color: 555;
+    line-height: 1.6em;
+    margin: 0;
+    font-size: 16px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #fff;
+    color: #fff;
+}
+.container .logo{
+    float: left;
+    margin-top: 6px;
+}
+.container .login{
+    float: right;
+    margin-top: 30px;
+}
+input.sub1[type=submit]{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    color: #fbee24;
+    cursor:pointer;
+    background-color: blue;
+    opacity: .9;
+}
+input.sub2[type=submit]{
+    background-color: rgba(0, 255, 0, 0);
+    cursor: pointer;
+    width: 150px;
+    border: 0px;
+    color: green;
+    font-weight: bolder;
+    
+    
+}
+input[type=text]{
+    font-size: 22px;
+    color: black;
+    border-radius: 50px;
+    height: 35px;
+    width: 400px
+}
+a{
+    text-decoration: none;
+    color: #fbee24;
+}
+#navbar{
+    background-color: #fbee24;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 19px;
+    margin-left:5px;
+    margin-right: 5px;
+}
+#navbar a:hover{
+    background-color: #019247;
+    
+}
+#showcase{
+    background-image: url('img/gorille.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 0px;
+    text-align: center;
+    min-height: 200px;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+#main{
+    float: left;
+    width: 70%;
+    background-color: #333;
+    color:#fff;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+#sidebar{
+    float:right;
+    width: 30%;
+    background-color:#333;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+#main-footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    background-color: blue;
+    color: #fff;
+    opacity: .9
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    color: #fbee24;
+}
