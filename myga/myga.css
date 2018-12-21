@@ -1,7 +1,8 @@
 @font-face {
     font-family: "menu";
-    src: url("font/Merriweather-Bold.ttf");
+    src: url("font/Montserrat-Light.ttf");
 }
+
 
 body {
     background-color: #f4f4f4;
@@ -137,7 +138,7 @@ a {
     display: inline;
 }
 #main-footer a{
-    padding-right: 20px
+    padding-right: 20px;
 }
 
 footer ul {
