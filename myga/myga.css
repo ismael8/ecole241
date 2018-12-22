@@ -105,7 +105,7 @@ a {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 430px;
+    height: 500px;
     margin-bottom: 0px;
     text-align: center;
     min-height: 200px;
@@ -131,6 +131,7 @@ a {
     color: #fff;
     opacity: .9;
     height: 150px;
+    height: 30px;
 
 }
 #main-footer ul li{
