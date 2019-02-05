@@ -126,6 +126,77 @@ footer {
 }
 
 /* CLASSES */
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #262626;
+    margin: auto;
+    overflow: hidden;
+}
+
+input, .toggle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    outline: none;
+    z-index: 10;
+}
+input{
+    opacity: 0;
+}
+.toggle{
+    pointer-events: none;
+    border-radius: 50%;
+    background: #fff;
+    transition: .5s;
+    text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+    box-shadow: 0 0 0 0px #9c27b0;
+}
+
+input.propo:checked ~ .toggle{
+    box-shadow: 0 0 0 500px #9c27b0;
+}
+
+.img, .detail{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.detail{
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 11;
+    pointer-events: none;
+    transition: .5s;
+    opacity: 0;
+}
+
+input.propo:checked ~ .detail{
+    opacity: 1;
+    transition-delay: .5s;
+}
+.detail h4{
+    margin-bottom: 5px;
+    color: #fff;
+    
+}
+
+.detail p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+
 .separator {
 	width: 40px;
 	height: 1px;
