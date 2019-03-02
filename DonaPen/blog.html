@@ -652,6 +652,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
-
+	<script src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+<script>
+ var myLandbotPopup = new LandbotPopup({
+   index: 'https://landbot.io/u/H-143448-T87QXOXB5N1TAGYB/index.html',
+ });
+</script>
+<script>
+ // Show a proactive message on landbot load
+ myLandbotPopup.on('landbot-load', () => {
+   myLandbotPopup.sendProactive("Bonjour, Je suis Dona !  Chargée de vous accompagner et de vous assister pour une belle navigation sur la plateforme.");
+ });
+</script>
 </body>
 </html>
