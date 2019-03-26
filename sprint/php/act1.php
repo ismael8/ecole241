@@ -1,3 +1,4 @@
 <?php
-    echo "Okacode";
+    $username = 'OKACODE';
+    echo $username;
 ?>
