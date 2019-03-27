@@ -11,5 +11,14 @@
     $jourDeLASemaine[] = "Dimanche";
 
     echo $jourDeLASemaine[5]
+        
+    //deuxieme forme de tableau
+        
+        <?php
+    $jourDeLASemaine = array("Lundi", "Mardi", "Mercredi", "jeudi", "Vendredi", "Samedi", "Dimanche", "Lundi", "Mardi", "Jeudi");
+
+    echo $jourDeLASemaine[2];
+
+?>
    
 ?>
