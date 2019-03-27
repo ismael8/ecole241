@@ -1,5 +1,15 @@
 <?php
-    $jourDeLASemaine = array("Lundi", "Mardi", "Mercredi", "jeudi", "Vendredi", "Samedi", "Dimanche", "Lundi", "Mardi", "Jeudi");
+    $jourDeLASemaine[] = "Lundi";
+    $jourDeLASemaine[] = "Mardi";
+    $jourDeLASemaine[] = "Mercrdi";
+    $jourDeLASemaine[] = "Jeudi";
+    $jourDeLASemaine[] = "Vendredi";
+    $jourDeLASemaine[] = "Samedi";
+    $jourDeLASemaine[] = "Dimanche";
+    $jourDeLASemaine[] = "Lundi";
+    $jourDeLASemaine[] = "Mercredi";
+    $jourDeLASemaine[] = "Dimanche";
 
-    echo $jourDeLASemaine;
+    echo $jourDeLASemaine[5]
+   
 ?>
